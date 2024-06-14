@@ -1,0 +1,58 @@
+#white-keys {
+    /* position: absolute; */
+    display: flex;
+}
+
+#white-keys > div > p {
+    margin-top: 0;
+    user-select: none;
+}
+
+.white-key {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    text-align: center;
+    color: black;
+}
+
+.white-key-selected {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: #888;
+    color: white;
+}
+
+#black-keys {
+    /* position: absolute; */
+    margin-left: 14px;
+    display: flex;
+}
+
+.black-key {
+    width: 16px;
+    height: 20px;
+    background-color: black;
+    margin-right: 6px;
+}
+
+.black-key-selected {
+    width: 16px;
+    height: 20px;
+    background-color: #888;
+    margin-right: 6px;
+}
+
+.black-key-spacer {
+    width: 22px;
+}
+
+#error-message {
+    color: red;
+}
+
+#chord-diagram {
+    border: 1px solid black;
+}

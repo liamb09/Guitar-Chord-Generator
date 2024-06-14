@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Guitar Chord Generator</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="scripts.js"></script>
+    </head>
+    <body>
+        <h1>Guitar Chord Generator</h1>
+        <div id="black-keys"></div>
+        <div id="white-keys"></div>
+        <h2 id="chord-display"></h2>
+        <div id="chord-input">
+            <input id="chord-input-box" type="text" placeholder="Enter chord to generate...">
+            <button id="submit-chord" onclick="generateChord()">Generate</button>
+        </div>
+        <p id="error-message"></p>
+        <br>
+        <canvas id="chord-diagram" width="300" height="315"></canvas>
+    </body>
+</html>
